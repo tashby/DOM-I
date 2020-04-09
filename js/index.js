@@ -71,7 +71,7 @@ navBar[2].style.color ='green';
 navBar[3].style.color ='green';
 navBar[4].style.color ='green';
 navBar[5].style.color ='green';
-
+//end step 3
 
 let ctaHeader = document.querySelector('h1');
 ctaHeader.innerHTML = siteContent['cta']['h1'].split(' ').join(`<br>`)
