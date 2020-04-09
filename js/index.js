@@ -76,3 +76,6 @@ mainContentParagraphs[1].textContent = siteContent['main-content']['about-conten
 mainContentParagraphs[2].textContent = siteContent['main-content']['services-content'];
 mainContentParagraphs[3].textContent = siteContent['main-content']['product-content'];
 mainContentParagraphs[4].textContent = siteContent['main-content']['vision-content'];
+
+let contactHeader = document.querySelector('.contact h4');
+contactHeader.textContent = siteContent['contact']['contact-h4']
