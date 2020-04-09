@@ -65,6 +65,13 @@ const appendLink = document.createElement('a');
 appendLink.textContent = 'append';
 navStepThree.appendChild(appendLink);
 
+navBar[0].style.color ='green';
+navBar[1].style.color ='green';
+navBar[2].style.color ='green';
+navBar[3].style.color ='green';
+navBar[4].style.color ='green';
+navBar[5].style.color ='green';
+
 
 let ctaHeader = document.querySelector('h1');
 ctaHeader.innerHTML = siteContent['cta']['h1'].split(' ').join(`<br>`)
