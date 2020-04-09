@@ -56,4 +56,15 @@ navBar[4].textContent = siteContent["nav"]["nav-item-5"];
 navBar[5].textContent = siteContent["nav"]["nav-item-6"];
 
 
+let ctaHeader = document.querySelector('h1');
+ctaHeader.innerHTML = siteContent['cta']['h1'].split(' ').join(`<br>`)
 
+let ctaButton = document.querySelector('button');
+ctaButton.innerHTML = siteContent['cta']['button'];
+
+let mainContentSections = document.querySelectorAll('.main-content .text-content h4');
+mainContentSections[0].textContent = siteContent['main-content']['features-h4'];
+mainContentSections[1].textContent = siteContent['main-content']['about-h4'];
+mainContentSections[2].textContent = siteContent['main-content']['services-h4'];
+mainContentSections[3].textContent = siteContent['main-content']['product-h4'];
+mainContentSections[4].textContent = siteContent['main-content']['vision-h4'];
