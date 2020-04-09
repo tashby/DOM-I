@@ -54,6 +54,16 @@ navBar[2].textContent = siteContent["nav"]["nav-item-3"];
 navBar[3].textContent = siteContent["nav"]["nav-item-4"];
 navBar[4].textContent = siteContent["nav"]["nav-item-5"];
 navBar[5].textContent = siteContent["nav"]["nav-item-6"];
+ 
+//step3
+let navStepThree = document.querySelector('nav');
+const prependLink = document.createElement('a');
+prependLink.textContent = 'prepend';
+navStepThree.prepend(prependLink);
+
+const appendLink = document.createElement('a');
+appendLink.textContent = 'append';
+navStepThree.appendChild(appendLink);
 
 
 let ctaHeader = document.querySelector('h1');
